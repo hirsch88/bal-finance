@@ -1,0 +1,18 @@
+@import 'node_modules/@baloise/design-system-components/src/styles/global.scss';
+
+body {
+  background: $white;
+}
+
+bal-file-upload > bal-list {
+  display: none !important;
+}
+
+table.table > tbody > tr.is-selected td {
+  background: $blue-1;
+  color: $black !important;
+}
+
+table.table.is-hoverable > tbody > tr:hover {
+  background: $grey-2 !important;
+}
